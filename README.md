@@ -1,7 +1,7 @@
-# profanity-filter: A Python library for detecting and filtering profanity
+# Python library for detecting and filtering profanity
 [![License](https://img.shields.io/pypi/l/profanity-filter.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/profanity-filter.svg)
-[![PyPI](https://img.shields.io/pypi/v/profanity-filter.svg)](https://pypi.org/project/profanity-filter/)
+[![python](https://img.shields.io/badge/Python-=%3E3.6-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![python](https://img.shields.io/badge/redis_py-%3E=4.0-3776AB.svg?style=flat&logo=redis&logoColor=red)](https://github.com/redis/redis-py)
 
 ## Archived
 This library is no longer a priority for me. Feel free to fork it.
@@ -31,9 +31,6 @@ This library is no longer a priority for me. Feel free to fork it.
          * [RESTful web service](#restful-web-service-1)
       * [Troubleshooting](#troubleshooting)
       * [Credits](#credits)
-
-<!-- Added by: rominf, at: Сб мая 18 15:06:37 MSK 2019 -->
-
 <!--te-->
 
 ## Overview
