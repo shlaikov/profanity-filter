@@ -15,14 +15,14 @@ install_requires = \
      'poetry-version>=0.1.3,<0.2.0',
      'pydantic>=1.3,<2.0',
      'redis>=4.0',
-     'ruamel.yaml>=0.15.89,<0.16.0',
+     'ruamel.yaml>=0.17,<0.18.0',
      'spacy>=2.0,<3.0']
 
 extras_require = \
     {':python_version >= "3.6" and python_version < "4.0"': ['dataclasses>=0.6.0,<0.7.0'],
      'deep-analysis': ['hunspell>=0.5.5,<0.6.0',
                        'python-Levenshtein>=0.12.0,<0.13.0',
-                       'regex>=2019.12.20,<2020.0.0'],
+                       'regex>=2019.12.20,<2024.0.0'],
      'multilingual': ['polyglot>=16.7,<17.0', 'pycld2==0.31', 'PyICU>=2.4,<3.0'],
      'pymorphy2-ru': ['pymorphy2-dicts-ru>=2.4.404381,<3.0.0'],
      'pymorphy2-uk': ['pymorphy2-dicts-uk>=2.4.1,<3.0.0'],
@@ -48,7 +48,7 @@ setup_kwargs = {
     'install_requires': install_requires,
     'extras_require': extras_require,
     'entry_points': entry_points,
-    'python_requires': '>=3.6,<4.0',
+    'python_requires': '>=3.9,<4.0',
 }
 
 setup(**setup_kwargs)
